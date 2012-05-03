@@ -1,0 +1,98 @@
+本驱动不足的地方, 不支持在资源管理器内通过拷贝粘贴的方式来复制或移动文件
+
+
+与原始文件比较, 不相同的地方.
+
+原始文件路径 path: .\windows_nt_4_source_code\nt4\private\ntos\cntfs
+
+
+attrsup.c	line 5590
+
+dirctrl.c	line 393
+		line 1423
+
+ea.c		line 508
+		line 845
+
+fsctl.c		line 453
+		line 1244
+		line 1322
+		line 2570
+		line 4445
+		line 4609
+		line 5138
+		line 5170
+		line 6178
+		line 6204
+		line 6278
+		line 6425
+		line 6694
+		line 7021
+		line 7362
+		line 8204
+
+fstiosup.c	line 96
+		line 129
+		line 178
+		line 181
+		line 231
+		line 279
+		line 291
+		line 624
+		line 617
+		line 844
+		line 877
+		line 1087
+		line 1149
+		line 1165
+		line 1424
+		line 1453
+
+logsup.c	line 906-966
+		line 1903-1904
+
+namesup.c	line 858,883,885
+
+ntfsinit.c	line 164
+
+ntfsproc.h	line 31-53
+		line 65
+
+pnppower.c	whole file
+
+read.c		line 554-559
+		line 1513-1518
+
+strucsup.c	line 302
+		line 1090-1093
+
+verfysup.c	line 1710
+
+volinfo.c	line 510
+
+workque.c	line 120
+		line 188
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#if !defined(NTDDI_VERSION) || (defined(NTDDI_VERSION) && (NTDDI_VERSION < NTDDI_WIN2K))
+#endif	// !defined(NTDDI_VERSION) || (defined(NTDDI_VERSION) && (NTDDI_VERSION < NTDDI_WIN2K))
+
+
+#ifndef Dbg
+#endif
