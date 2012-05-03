@@ -1,0 +1,49 @@
+TARGETNAME=ntfs
+TARGETTYPE=DRIVER
+TARGETPATH=obj
+
+
+INCLUDES=..\
+
+SOURCES = \
+        ..\allocsup.c               \
+        ..\attrdata.c               \
+        ..\attrsup.c                \
+        ..\bitmpsup.c               \
+        ..\cachesup.c               \
+        ..\checksup.c               \
+        ..\cleanup.c                \
+        ..\close.c                  \
+        ..\colatsup.c               \
+        ..\create.c                 \
+        ..\devctrl.c                \
+        ..\deviosup.c               \
+        ..\dirctrl.c                \
+        ..\ea.c                     \
+        ..\fileinfo.c               \
+        ..\filobsup.c               \
+        ..\flush.c                  \
+        ..\fsctrl.c                 \
+        ..\fspdisp.c                \
+        ..\fstiosup.c               \
+        ..\indexsup.c               \
+        ..\lockctrl.c               \
+        ..\logsup.c                 \
+        ..\mcbsup.c                 \
+        ..\mftsup.c                 \
+        ..\namesup.c                \
+        ..\ntfsdata.c               \
+        ..\ntfsinit.c               \
+        ..\pnppower.c               \
+        ..\prefxsup.c               \
+        ..\read.c                   \
+        ..\resrcsup.c               \
+        ..\restrsup.c               \
+        ..\secursup.c               \
+        ..\seinfo.c                 \
+        ..\shutdown.c               \
+        ..\strucsup.c               \
+        ..\verfysup.c               \
+        ..\volinfo.c                \
+        ..\workque.c                \
+        ..\write.c                  \
